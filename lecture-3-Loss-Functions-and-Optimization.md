@@ -6,12 +6,12 @@
 
 ---------------------
 
-지난 강의(Lecture2)에서 이미지 인신의 어려움에 대해 이야기 했는데, 사람의 시각 인식과 컴퓨터의 인식에는 Semantic Gap이 존재한다. KNN을 Hyperparameter
-train과정에서 W라는 parameter가 세팅된다.
+지난 강의(Lecture2)에서 이미지 인신의 어려움에 대해 이야기 했다. 사람의 시각 인식과 컴퓨터의 인식에는 Semantic Gap이 존재했고 이를 극복하기 위해서는 여러 Challenge가 존재한다.
+또한 이미지 인식을 위한 기법으로 배운 KNN은 Data중심의 접근 방법으로 Hyperparameter인 W가 존재하고 이는 train 과정에서 세팅되어 test데이터를 predict한다.
 
 ![image](https://user-images.githubusercontent.com/62828866/125530697-3f5f2c5d-d4f9-41c8-a44e-68b00f8a8e09.png)
 
-그렇다면 어떻게 W를 결정하느냐? W에 대해 좋다 나쁘다를 정량화하는 것이 바로 Loss Function 이다. 그리고 이 최선의 W를 찾아가는 방법이 Optimization이다.
+그렇다면 어떻게 W를 결정하느냐? W에 대해 좋다 나쁘다를 정량화하는 것이 바로 **Loss Function**이다. 그리고 이 최선의 W를 찾아가는 방법이 **Optimization**이다. 오늘은 이 2가지 방법에 대해 배울 것이다.
 
 ## Linear classification II
 
@@ -19,7 +19,7 @@ train과정에서 W라는 parameter가 세팅된다.
 
 ![image](https://user-images.githubusercontent.com/62828866/125530956-f38d74f7-4431-4235-83c8-a3f5c51e3bf3.png)
 
-Loss function은 현재 분류기가 얼마나 좋은지 말해준다. dataset에 대한 Loss fucntion은 $f(x_{i},W)$와 $y_{i}$의 차이에 대한 평균이다. 이것은 이미지 뿐만 아니라 매우 general하게 이용된다.
+Loss function은 현재 분류기가 얼마나 좋은지 말해준다. dataset에 대한 Loss fucntion은 $$f(x_{i},W)$$와 $$y_{i}$$의 차이에 대한 평균이다. 이것은 이미지 뿐만 아니라 매우 general하게 이용된다.
 
 ![image](https://user-images.githubusercontent.com/62828866/125530996-52509d3f-ca05-4960-9d24-53e18ad40ecf.png)
 
@@ -89,7 +89,7 @@ gradient를 모두 하나씩 다 구하는 건 계산도 오래 걸릴 뿐더러
 *Analytic gradient*
 ![image](https://user-images.githubusercontent.com/62828866/125635509-3f6cd17b-d109-4462-b134-4eb4d5c9279e.png)
 
-그러나 위처럼 계산할 필요가 없이 *미적분학의 요술 망치(the magical hammer of calculus)*를 사용하면, 훨씬 더 정확하고 빠르게 gradient를 구할 수 있다. 이 Analytic gradient는 실제적으로 사용되는 방법이다.
+그러나 위처럼 계산할 필요가 없이 *미적분학의 요술 망치* (the magical hammer of calculus)를 사용하면, 훨씬 더 정확하고 빠르게 gradient를 구할 수 있다. 이 Analytic gradient는 실제적으로 사용되는 방법이다.
 
 ### Gradient Descent
 
