@@ -113,4 +113,5 @@ Gradient descent는 각 loss의 선형합이다 따라서 저번에 본 예시�
 Feature Extraction을 통한 전통적인 방식은 train을 하는 동안에도 Feature block이 fix이다.
 이에 반해 CNN은 다른 것은 매우 비슷하지만 **사전에 feature를 정해놓지 않고 data에서 직접 feature를 학습하는 방법이다.**
 
-CNN에 대해서는 드디어 다음시간에 다루게 된다.
+다음시간에는 Neural Network에 대해 다루게 된다!
+
