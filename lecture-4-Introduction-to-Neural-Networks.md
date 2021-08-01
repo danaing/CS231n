@@ -185,4 +185,4 @@ fully-connected layer는 벡터로 표현이 가능하고 행렬의 곱인 W*x�
 
 ![image](https://user-images.githubusercontent.com/62828866/127187823-1851e3c7-a274-4e91-a172-481d944e93a4.png)
 
-다음 시간에는 드디어 Convolutional Neural Network에 대해서 배운다.
+여기까지가 Neural Network에 대한 기본 개괄이었다. 다음 시간에는 **드디어** Convolutional Neural Network에 대해서 배울 것이다.
