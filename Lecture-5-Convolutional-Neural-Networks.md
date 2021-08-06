@@ -38,7 +38,10 @@ Convolution Layer는 1개의 긴 벡터로 만들지 않고 **이미지 모양 �
 ![image-20210801222258723](C:\Users\Danah\AppData\Roaming\Typora\typora-user-images\image-20210801222258723.png)
 모든 공간에서 이 필터를 곱하는 계산을 해서 1개의 필터로 1개의 **activation map**을 만든다.
 
-![image](https://user-images.githubusercontent.com/62828866/127772518-e459030d-65cd-4db2-9098-2139064d95f7.png)
+![image](https://user-images.githubusercontent.com/62828866/128187518-b7585a69-276e-490a-acb5-20195d11b619.png)
+
+
+
 그리고 또 다른 필터를 추가해서 수행할 수 있는데, 6개의 필터를 사용하면 6개의 activation map을 얻을 수 있다.
 
 ![image](https://user-images.githubusercontent.com/62828866/127773726-28a18e9e-98cf-44be-aa43-93cc6e2a2bd1.png)
