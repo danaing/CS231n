@@ -1,6 +1,12 @@
-# Stanford CS231n
+# Stanford University | CS231n
 
-## Convolutional Neural Networks for Visual Recognition(Spring 2017)
+## Lecture 'Convolutional Neural Networks for Visual Recognition' (Spring 2017)
+
+Computer Vision has become ubiquitous in our society, with applications in search, image understanding, apps, mapping, medicine, drones, and self-driving cars. Core to many of these applications are visual recognition tasks such as image classification, localization and detection. Recent developments in neural network (aka “deep learning”) approaches have greatly advanced the performance of these state-of-the-art visual recognition systems. This lecture collection is a deep dive into details of the deep learning architectures with a focus on learning end-to-end models for these tasks, particularly image classification. From this lecture collection, students will learn to implement, train and debug their own neural networks and gain a detailed understanding of cutting-edge research in computer vision. 
+
+
+
+스탠포드 대학원의 CS231n 수업은 Convolutional Neural Networks for Visual Recognition에 대해 배우는 강의입니다. 2017년 봄학기의 수업을 듣고 한글로 내용을 정리하여 올렸습니다.
 
 [Course Syllabus Link](http://cs231n.stanford.edu/2017/syllabus.html)
 
